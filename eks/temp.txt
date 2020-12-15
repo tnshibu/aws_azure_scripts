@@ -1,0 +1,5 @@
+sha256:e1f856e0ccf28c8e7a7ef5f945c8286182c743beebd7a7c52b503ec24fbec637	daytrader-accounts-1.0.0
+sha256:7b95bd1f2b5d442c4fddfe96ead5472375f6bc75182ad3d965a91121c9e74fdf	daytrader-gateway-1.0.0
+sha256:354459f3c6bcb6f24e1a9961928f94c2af4e33160c92d6ca387122afbeae5a3b	daytrader-quotes-1.0.0
+sha256:858a10ac345f6cfe4e169dafa84b56f6753a6ccc664f1650b65d5b5338fe0ed2	daytrader-web-1.0.0
+sha256:16994005a36b50cd8ee37eaa3b6fd61614683f61691baf5b48d84f13c022abce	daytrader-portfolios-1.0.0
