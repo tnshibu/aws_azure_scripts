@@ -5,6 +5,5 @@ aws iam create-role --profile default --role-name sspoc_daytrader_eks_role --ass
 
 aws iam --profile default attach-role-policy --role-name sspoc_daytrader_eks_role --policy-arn "arn:aws:iam::aws:policy/AmazonEKSClusterPolicy"
 
-
 #Attach EKS related policy to the role
 aws iam --profile default put-role-policy --role-name sspoc_daytrader_eks_role --policy-name sspoc_daytrader_eks_policy_all --policy-document file://sspoc_daytrader_eks_policy_all.json
