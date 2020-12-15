@@ -18,13 +18,18 @@ VPC_TEMPLATE="https://amazon-eks.s3-us-west-2.amazonaws.com/cloudformation/2018-
 #	EKS Cluster
 #===============================
 EKS_CLUSTER_NAME="ss-poc-cluster"
-EKS_ROLE_ARN="arn:aws:iam::560773393352:role/sspoc_daytrader_lambda_role"
+#EKS_ROLE_ARN="arn:aws:iam::560773393352:role/sspoc_daytrader_lambda_role"
+EKS_ROLE_ARN="arn:aws:iam::560773393352:role/sspoc_daytrader_eks_role"
+
 
 #===============================
 #	Secondary User
 #===============================
-AWS_SECOND_USER_ARN="arn:aws:iam::560773393352:role/sspoc_daytrader_lambda_role"
-AWS_SECOND_USER_NAME="sspoc_daytrader_lambda_role"
+#AWS_SECOND_USER_ARN="arn:aws:iam::560773393352:role/sspoc_daytrader_lambda_role"
+AWS_SECOND_USER_ARN="arn:aws:iam::560773393352:role/sspoc_daytrader_eks_role"
+#AWS_SECOND_USER_NAME="sspoc_daytrader_lambda_role"
+AWS_SECOND_USER_NAME="sspoc_daytrader_eks_role"
+
 
 #===============================
 #	EKS Worker Nodes
