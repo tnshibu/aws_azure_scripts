@@ -43,6 +43,9 @@ Download required software on EC2 VM
     
 Steps for creation of Kubernetes Cluster on AWS
 -----------------------------------------------
+This section uses python to create the cluster.  If you have python3 on windows you can try it out on windows
+Else continue the below commands on Linux VM
+
 01> Do a clone of git repo https://www.github.com/tnshibu/aws_azure_scripts
 02> cd aws_azure_scripts/aws/eks
     run the commands in "eks_role_create.txt" one by one
